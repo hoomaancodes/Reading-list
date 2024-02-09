@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form" action="#">
+        <legend>Add new book</legend>
+        <input required type="text" placeholder="Title">  <label class="lbl-req" for="input"></label>
+        <input required type="text" placeholder="Author"> <label class="lbl-req" for="input"></label>
+        <input required type="number" placeholder="Pages"><label class="lbl-req" for="input"></label>
+        <div class="read">
+            <label for="">Have you read it?</label>
+            <input type="checkbox">
+        </div>
+        <button id="submit-btn">Submit</button>
+    </form>
+    <div class="container">
+        <div class="title">
+            <h1>Reading List</h1>
+        </div>
+        <div class="library">
+            <div class="main">
+                <button id="book-adder">+ Add a book</button>
+            </div>
+            <div class="lib-content">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
